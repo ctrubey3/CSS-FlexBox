@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+.seal {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffca29;
+  border-radius: 100px;
+}
+.seal12 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffca29;
+  border-radius: 100px;
+}
+.hole {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  border-radius: 100px;
+}
+.seals {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.holes {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 95;
+}
+.hole11 {
+  left: 0;
+}
+.hole12 {
+  left: 100px;
+}
+.hole13 {
+  left: 200px;
+}
+.seals {
+  left: 100px;
+}
+.seals1 {
+  left: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.hole21 {
+  right: 0;
+  bottom: 0;
+}
+.hole22 {
+  right: 0;
+  bottom: 200px;
+}
+.hole23 {
+  right: 0;
+  bottom: 400px;
+}
+.seals2 {
+  left: 400px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hole31 {
+  left: 50px;
+  top: 200px;
+}
+.hole32 {
+  left: 150px;
+  top: 200px;
+}
+.hole33 {
+  left: 250px;
+  top: 200px;
+}
+.hole34 {
+  left: 350px;
+  top: 200px;
+}
+.seals3 {
+  left: 50px;
+  top: 200px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.hole41 {
+  left: 32.5px;
+  top: 0;
+}
+.hole42 {
+  left: 200px;
+  top: 0;
+}
+.hole43 {
+  left: 367px;
+  bottom: 0;
+}
+.seals4 {
+  left: 0px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-child {
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+.hole51 {
+  left: 0;
+  top: 0;
+}
+.hole52 {
+  left: 100px;
+  top: 200px;
+}
+.hole53 {
+  left: 200px;
+  top: 200px;
+}
+.hole54 {
+  left: 300px;
+  top: 200px;
+}
+.hole55 {
+  left: 400px;
+  top: 400px;
+}
+.seals5 {
+  left: 0px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.second-child {
+  align-self: center;
+  flex-wrap: wrap;
+}
+.last-child {
+  align-self: flex-end;
+  flex-wrap: wrap;
+}
+/*# sourceMappingURL=style.css.map */
